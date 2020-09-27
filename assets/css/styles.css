@@ -17,6 +17,47 @@
     margin-top: -10px;
 }
 
+.mini-boxx img {
+    max-width: 14rem;
+    border-radius: 1rem;
+    fill: cover;
+}
+
+@media only screen and (max-width: 1440px) {
+    .mini-boxx img {
+        max-width: 12rem;
+        border-radius: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .mini-boxx img {
+        max-width: 10rem;
+        border-radius: 1rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .mini-boxx img {
+        max-width: 9rem;
+        border-radius: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .mini-boxx img {
+        max-width: 8rem;
+        border-radius: 1rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mini-boxx img {
+        max-width: 5rem;
+        border-radius: 1rem;
+    }
+}
+
 .mini-boxx:before {
     content: '';
     position: absolute;
@@ -53,9 +94,9 @@
     background-color: grey;
 }
 
-.alumni-gabung-button {
-    width: 25rem;
-    height: 5rem;
+.gabung-button {
+    width: 250px;
+    height: 4rem;
     background-color: blue;
     color: white;
     margin: 2rem auto;
@@ -64,6 +105,19 @@
     outline-style: none;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+.alumni-gabung-button {
+    width: 25rem;
+    height: 4rem;
+    background-color: blue;
+    color: white;
+    margin: 2rem auto;
+    border-radius: 10rem;
+    border-style: none;
+    outline-style: none;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .sosmed {
@@ -86,3 +140,37 @@
     display: inline-block;
     font-size: 3rem;
 }
+
+section {
+    position: relative;
+}
+
+section .next-button {
+    position: absolute;
+    right: 5rem;
+    bottom: 15rem;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(77, 179, 247);
+    color: white;
+    text-align: center;
+    border-style: none;
+    outline-style: none;
+    font-weight: bold;
+}
+
+section .next-button:hover {
+    background-color: rgba(255, 148, 250, 0.705);
+    transition: 500ms;
+}
+
+
+/* #internal .next-button button {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    margin: 0.7rem auto;
+    outline-style: none;
+    border-style: none;
+} */
