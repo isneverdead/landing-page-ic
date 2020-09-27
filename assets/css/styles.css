@@ -1,0 +1,88 @@
+.mini-boxx {
+    display: block;
+    background: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+
+.mini-boxx:hover {
+    margin-top: -10px;
+}
+
+.mini-boxx:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background: #fff;
+    width: 100%;
+    opacity: .15;
+    height: 100%;
+    bottom: -10px;
+    left: 0px;
+    right: -20px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.gabung {
+    width: 20rem;
+    height: 3rem;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    border-radius: 10rem;
+    border-style: none;
+    outline-style: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.button-container {
+    margin: 5rem auto;
+    padding: 1rem;
+    width: 100%;
+    height: 5rem;
+    background-color: grey;
+}
+
+.alumni-gabung-button {
+    width: 25rem;
+    height: 5rem;
+    background-color: blue;
+    color: white;
+    margin: 2rem auto;
+    border-radius: 10rem;
+    border-style: none;
+    outline-style: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.sosmed {
+    text-align: center;
+}
+
+.sosmed li {
+    display: inline-block;
+}
+
+.sosmed li a {
+    margin: 0 1rem;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 3rem;
+}
